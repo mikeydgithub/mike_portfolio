@@ -6,6 +6,9 @@ import { useEffect, useRef } from 'react'
 export default function Intro() {
   const textRef = useRef();
 
+  // npm intall typewriter-effect and remove ityped.
+  // https://stackoverflow.com/questions/71991232/why-am-i-getting-double-letters-after-using-ityped-package-in-react-js
+
   useEffect(() => {
     init(textRef.current, {
       showCursor: false,
