@@ -1,23 +1,9 @@
 import './intro.scss'
 import {KeyboardArrowDown} from '@material-ui/icons'
-import { init } from 'ityped'
-import { useEffect, useRef } from 'react'
+import TypewriterComponent from 'typewriter-effect';
+
 
 export default function Intro() {
-  const textRef = useRef();
-
-  // npm intall typewriter-effect and remove ityped.
-  // https://stackoverflow.com/questions/71991232/why-am-i-getting-double-letters-after-using-ityped-package-in-react-js
-
-  useEffect(() => {
-    init(textRef.current, {
-      showCursor: false,
-      backDelay: 1500,
-      backSpeed: 60,
-      strings: ["Developer", "Engineer"],
-    });
-  },[]);
-
   return (
     <div className="intro" id="intro">
       {/* left side start */}
@@ -32,7 +18,16 @@ export default function Intro() {
         <div className="wrapper">
           <h1>Michael Diamond</h1>
           <h3>
-            Full Stack Web <span ref={textRef}></span>
+            Full Stack Web <span>
+            <TypewriterComponent 
+            options={{ 
+            strings:["Developer", "Designer", "Content Creater"],
+            autoStart:true,
+            delay:75,
+            loop:true
+            }}
+            />
+            </span>
           </h3>
         </div>
         <a href="#portfolio">
