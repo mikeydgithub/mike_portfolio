@@ -1,39 +1,39 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Shopping App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "./assets/shop-shop.jpg",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Team Builder Pro",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://user-images.githubusercontent.com/94988620/169304576-f7a8962c-1f14-4a23-82d3-00a0d915ea58.png",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Gadget Blog",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://user-images.githubusercontent.com/94988620/171004704-f29cad7b-f068-4a96-97ac-f467046a52ad.png",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Photo Port",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "https://user-images.githubusercontent.com/94988620/171005447-c40a3cb6-c662-4917-af75-9757dc9c4705.png",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "Pizza Hunt",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "https://user-images.githubusercontent.com/94988620/171006802-3c8247c7-927e-4030-a343-c58fac17a856.png",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "Zoo Keeper Catalog",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "https://user-images.githubusercontent.com/94988620/171007419-9ae6fa96-2c1f-47a5-8c08-4ed359a3559b.png",
     },
   ];
   

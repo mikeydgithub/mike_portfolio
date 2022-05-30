@@ -81,7 +81,7 @@ export default function Portfolio() {
           src={d.img}
           alt=""
           />
-          <h3>Shopping App</h3>
+          <h3>{d.title}</h3>
           </div>
         ))}
       </div>
