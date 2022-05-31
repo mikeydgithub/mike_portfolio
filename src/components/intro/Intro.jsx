@@ -1,5 +1,5 @@
 import './intro.scss'
-import {KeyboardArrowDown} from '@material-ui/icons'
+import {KeyboardArrowDown} from '@material-ui/icons';
 import TypewriterComponent from 'typewriter-effect';
 
 

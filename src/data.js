@@ -3,7 +3,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Shopping App",
       img:
-        "./assets/shop-shop.jpg",
+        "https://user-images.githubusercontent.com/94988620/171214102-94721c76-7e4e-4a3c-b1df-4b88cc62946d.png",
     },
     {
       id: 2,
